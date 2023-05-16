@@ -1,0 +1,27 @@
+{
+  "name": "magazine_95",
+  "version": "1.0.0",
+  "description": "Marah magazine",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvalen/magazine_95.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msvalen/magazine_95/issues"
+  },
+  "homepage": "https://github.com/msvalen/magazine_95#readme",
+  "dependencies": {
+    "next": "^13.4.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
