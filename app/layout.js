@@ -1,7 +1,15 @@
 export default function RootLayout ({ children }) {
   return (
     <html lang='en'>
-      <body>{children}</body>
+      <head>
+        <title>Magazine</title>
+        <link rel='icon' href='/favicon.ico' />
+      </head>
+      <body
+        style={{ display: 'flex', justifyContent: 'center', paddingTop: '2em' }}
+      >
+        {children}
+      </body>
     </html>
   )
 }

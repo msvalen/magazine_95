@@ -1,3 +1,12 @@
+import Image from 'next/image'
+
 export default function Page () {
-  return <h1>Page in construction</h1>
+  return (
+    <Image
+      src='/construction.gif'
+      alt='Page under construction'
+      width='200'
+      height='200'
+    />
+  )
 }
